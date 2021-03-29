@@ -1,6 +1,8 @@
 body{
 	background: #edf0f2;
 	font-family: Verdana;
+	max-width: 900px;
+	margin: auto;
 }
 
 .profile_image {
@@ -41,10 +43,12 @@ a {
 	margin: 0;
 	margin-botton: 15px;
 	text-transform: capitalize;
+	text-align: justify;
 }
 
 .post_image {
 	margin-botton: 15px;
+	width: 100%;
 }
 
 .list {
