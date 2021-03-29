@@ -46,3 +46,8 @@ a {
 .post_image {
 	margin-botton: 15px;
 }
+
+.list {
+	list-style-type: square;
+	padding-left: 20px;
+}
