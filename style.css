@@ -1,5 +1,6 @@
 body{
-	background: #edf0f2
+	background: #edf0f2;
+	font-family: Verdana;
 }
 
 .profile_image {
@@ -8,7 +9,17 @@ body{
 }
 
 #title, .subtitle, .post_title {
-	color: blue;
+	color: #141518;
+}
+
+#title {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: underline;
+	color: #505050;
 }
 
 .post_title {
@@ -29,6 +40,7 @@ body{
 .post_content {
 	margin: 0;
 	margin-botton: 15px;
+	text-transform: capitalize;
 }
 
 .post_image {
