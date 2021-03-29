@@ -1,5 +1,10 @@
 body{
-	background: #949494
+	background: #edf0f2
+}
+
+.profile_image {
+	border: 1px solid #141518;
+	border-radius: 50%;
 }
 
 #title, .subtitle, .post_title {
@@ -9,11 +14,23 @@ body{
 .post_title {
 	font-size: 16px;
 	font-style: italic;
+	margin: 0;
+	margin-botton: 15px;
 }
 
 .post {
 	background: #ffffff;
-	padding: 10px;
+	padding: 15px;
 	border: 3px solid #141518;
-	margin: 10px;
+	margin-botton: 15px;
+	border-radius: 5px;
+}
+
+.post_content {
+	margin: 0;
+	margin-botton: 15px;
+}
+
+.post_image {
+	margin-botton: 15px;
 }
